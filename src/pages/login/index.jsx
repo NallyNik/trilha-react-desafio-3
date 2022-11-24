@@ -40,6 +40,7 @@ const Login = () => {
                 <Title>A plataforma para você aprender com experts, dominar as principais tecnologias
                  e entrar mais rápido nas empresas mais desejadas.</Title>
             </Column>
+            <Column></Column>
             <Column>
                 <Wrapper>
                 <TitleLogin>Faça seu cadastro</TitleLogin>
@@ -52,8 +53,9 @@ const Login = () => {
                     <Button title="Entrar" variant="secondary" type="submit"/>
                 </form>
                 <Row>
-                    <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <EsqueciText>Esqueci minha senha
+                    <CriarText href="./cadastro">Criar Conta</CriarText>
+                    </EsqueciText>
                 </Row>
                 </Wrapper>
             </Column>

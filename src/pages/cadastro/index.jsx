@@ -41,8 +41,7 @@ const Cadastro = () => {
                 empresas mais<br />
                 desejadas.</Title>
             </Column>
-            <Column>
-            </Column>
+            <Column></Column>
             <Column>
                 <Wrapper>
                 <TitleLogin>Comece agora grátis</TitleLogin>
@@ -65,7 +64,7 @@ const Cadastro = () => {
                 </Row>
                 <Row>
                     <ContaText>Já tenho conta.
-                    <CriarText>Fazer login</CriarText>
+                    <CriarText href="./login">Fazer login</CriarText>
                     </ContaText>
                 </Row>
                 </Wrapper>

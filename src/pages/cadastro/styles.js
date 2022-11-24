@@ -79,13 +79,12 @@ export const ContaText  = styled.p`
     display: flex;
 ` 
 
-export const CriarText =  styled.p`
+export const CriarText =  styled.a`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
     color: #23DD7A;
-    display: flex;
-    flex-direction: column;
+    margin-left: 10px;
 `

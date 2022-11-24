@@ -28,8 +28,6 @@ export const Row = styled.div`
     margin-top: 20px;
 `
 
-
-
 export const Title = styled.h2`
     font-family: 'Open Sans';
     font-style: normal;
@@ -71,12 +69,12 @@ export const EsqueciText  = styled.p`
     color: #E5E044;
 ` 
 
-export const CriarText =  styled.p`
+export const CriarText =  styled.a`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
-
     color: #23DD7A;
+    margin-left: 10px;
 `
